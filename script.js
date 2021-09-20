@@ -32,6 +32,7 @@ function idleSpin() {
 }
 
 let box = document.querySelectorAll(".box");
+idleSpin();
 [...box].map((box) => {
   let boxBoundingRect = box.getBoundingClientRect();
   let boxCenter = {
